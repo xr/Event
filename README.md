@@ -3,9 +3,9 @@
   lightweight pubSub pattern event for javascript.
 
 ## Installation
-
+```bash
   $ npm install light-event
-
+```
 ### on(event, fn)
 ```js
 var LE = require('light-event');
