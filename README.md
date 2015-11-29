@@ -16,7 +16,7 @@ e.on('sayHi', function (data) {
     console.log('hi, ' + data);
 })
 
-e.trigger('sayHi', 'light-event'); // hi, light-weigth
+e.trigger('sayHi', 'light-event'); // hi, light-event
 ```
 
 ### once(event, cb)
