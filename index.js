@@ -32,7 +32,6 @@ Eventer.prototype.once = function (event, fn) {
 	var that = this;
 	function one() {
 		that.off(event, one);
-		console.log('arg', arguments);
 		fn.apply(this, arguments);
 	}
 	this.on(event, one);

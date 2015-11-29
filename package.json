@@ -12,5 +12,13 @@
     "emitter"
   ],
   "author": "liang guo <guoliang1222@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xr/Eventer.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
 }
