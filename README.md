@@ -2,7 +2,7 @@
 
   lightweight pubSub pattern event for javascript.
 
-## Installation
+## Installation 
 ```bash
   $ npm install light-event
 ```
